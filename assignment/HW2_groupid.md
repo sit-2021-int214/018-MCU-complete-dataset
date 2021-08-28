@@ -48,14 +48,14 @@ mean(survey$Age[survey$Sex == 'Male'],na.rm = T)  #20.33196
 5.) หาค่าผลสรุปโดยรวมของ body weight ของแมวเพศเมีย
 ```{R}
 summary(cats$Bwt[cats$Sex == 'F'])
-
- | Min.| 1st Qu. | Median   | Mean 3rd Qu.   | Max.| 
-|:---:|-------------------|--------------|
- | 2.00 |   2.15  |  2.30  |  2.36  |  2.50  |  3.00 |
+ # Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   2.00    2.15    2.30    2.36    2.50    3.00 
 ```
 คำอธิบาย
 ```{R}
 หาค่าผลสรุปโดยรวมโดยใช้ summary(cats$Bwt) จากนั้นใช้คำสั่ง [cat$Sex == 'F'] เพื่อระบุว่าเป็นเพศเมีย
+```
+
 ### Team: 018-Thailand-Largest-Company
 | No. | Name              | Student ID   |
 |:---:|-------------------|--------------|

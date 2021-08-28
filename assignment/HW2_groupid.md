@@ -5,8 +5,8 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 
 1.) หาค่าสูงสุดของ heart weight ของแมวเพศผู้และค่าเฉลี่ยของ body weight ของแมวเพศผู้
 ```{R}
-max(cats$Hwt[cats$Sex == 'M']) #20.5
-mean(cats$Bwt[cats$Sex == 'M']) #2.9
+max(cats$Hwt[cats$Sex == 'M'])  #20.5
+mean(cats$Bwt[cats$Sex == 'M'])  #2.9
 ```
 คำอธิบาย
 ```{R}
@@ -14,16 +14,28 @@ mean(cats$Bwt[cats$Sex == 'M']) #2.9
 และทำการตรวจสอบอีกทีว่าเป็นเพศผู้โดยใช้คำสั่ง [cats$Sex == 'M']
 หาค่าเฉลี่ยของ body weight ของแมวเพศผู้โดยใช้คำสั่ง mean(cats$Bwt)
 ```
+
 2.) หาสูงสุดของ span of writing hand ของนักเรียนหญิง
 ```{R}
-max(survey$Wr.Hnd[survey$Sex == 'Female'],na.rm = TRUE )
+max(survey$Wr.Hnd[survey$Sex == 'Female'],na.rm = TRUE )  #20.8
 ```
 คำอธิบาย
 ```{R}
 หาสูงสุดของ span of writing ของนักเรียนหญิงโดยใช้คำสั่ง max(survey$Wr.Hnd) และเจาะจงว่าเป็นเพศหญิงโดยคำสั่ง [survey$Sex == 'Female']
 จากนั้นใช้คำสั่ง na.rm = TRUE เพื่อให้สามารถหาค่าเฉลี่ยจากความสูงทั้งหมดได้โดยที่ไม่ติดค่า NA ที่มีอยู่
 ```
-3.) 
+
+3.) หาจำนวนนักเรียนที่ถนัดเขียนมือขวาทั้งหมด
+```{R}
+sum(survey$W.Hnd == 'Left',na.rm = T)  #18
+```
+คำอธิบาย
+```{R}
+หาจำนวนนักเรียนที่ถนัดเขียนมือซ้ายโดยการใช้คำสั่ง sum(survey$W.Hnd == 'Left') หลังจากนั้นก็เพิ่มคำสั่ง na.rm = T
+เพื่อหาให้หาผลรวมทั้งหมดโดยที่ไม่ติดค่า NA
+```
+
+4.) 
 ### Team: 018-Thailand-Largest-Company
 | No. | Name              | Student ID   |
 |:---:|-------------------|--------------|

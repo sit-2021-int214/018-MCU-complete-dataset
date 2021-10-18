@@ -20,8 +20,8 @@ This dataset is about MCU movies that contains movie till Phase 3.It incloudes N
 2. [Data Visualization]() ---> อันนี้เป็นงานของ Final Assignment นะครับพี่แค่แปะหัวข้อตัวอย่างไว้
 
 ## Resource
-## Reference
-
+## References
+//Link
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 ### Team: 018-Thailand-Largest-Company

@@ -1,11 +1,15 @@
 # GroupID-Datasetname
 Datasets from: [MCU complete dataset](https://www.kaggle.com/rachit239/mcu-complete-dataset)
 
-## Objective
+### About MCU complete dataset Dataset
+
+## Overview
 
 ## Process
 
 ## Result
+
+## Resource
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี

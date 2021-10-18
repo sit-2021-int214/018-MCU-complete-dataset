@@ -4,6 +4,20 @@ Datasets from: [MCU complete dataset](https://www.kaggle.com/rachit239/mcu-compl
 ### About MCU complete dataset Dataset
 This dataset is about MCU movies that contains movie till Phase 3.It incloudes Name,US release Date,Director,Producer,Duration,Genre,IMDB rating,metascore,Cast,Budget,Domestic Gross,Total Gross,Opening Gross,Oscar Nomination,Oscar won,Phase
 ## Overview
+### Steps
+
+1. Define a question
+2. Observe...
+
+### Tools
+
+- R Language
+- R Studio Desktop
+
+## Table of Contents
+
+1. [Exploratory Data Analysis](./01_explore.md)
+2. [Data Visualization]() ---> อันนี้เป็นงานของ Final Assignment นะครับพี่แค่แปะหัวข้อตัวอย่างไว้
 
 ## Process
 

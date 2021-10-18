@@ -7,6 +7,9 @@
 Datasets from: [MCU Complete Dataset](https://www.kaggle.com/rachit239/mcu-complete-dataset)
 
 ## Step 3: Loading Library and Dataset
+```{R}
+*test
+```
 
 ## Step 4: Data Exploration
 ชุดข้อมูลนี้ประกอบไปด้วย

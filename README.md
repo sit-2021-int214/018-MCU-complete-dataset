@@ -1,13 +1,17 @@
-# GroupID-Datasetname
-Datasets from: [MCU complete dataset](https://www.kaggle.com/rachit239/mcu-complete-dataset)
+# Group 018 - MCU Complete Dataset
+Datasets from: [MCU Complete Dataset](https://www.kaggle.com/rachit239/mcu-complete-dataset)
 
-### About MCU complete dataset Dataset
-This dataset is about MCU movies that contains movie till Phase 3.It incloudes Name,US release Date,Director,Producer,Duration,Genre,IMDB rating,metascore,Cast,Budget,Domestic Gross,Total Gross,Opening Gross,Oscar Nomination,Oscar won,Phase
+### About MCU Complete Dataset
+This dataset is about MCU movies that contains movie till Phase 3. It includes Name, US release Date, Director, Producer, Duration, Genre, IMDB rating, metascore, Cast, Budget, Domestic Gross, Total Gross, Opening Gross, Oscar Nomination, Oscar won, and Phase
 ## Overview
 ### Steps
 
 1. Define a question
-2. Observe...
+2. Search dataset from Kaggle
+3. Loading Library and Dataset
+4. Data Exploration
+5. Data Cleaning and Data Transformation
+6. Data Analysis with Descriptive Statistics
 
 ### Tools
 

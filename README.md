@@ -13,6 +13,9 @@ This dataset is about MCU movies that contains movie till Phase 3. It includes N
 5. Data Cleaning and Data Transformation
 6. Data Analysis with Descriptive Statistics
 
+### Questions
+1. 
+
 ### Tools
 
 - R Language
@@ -20,10 +23,12 @@ This dataset is about MCU movies that contains movie till Phase 3. It includes N
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](./01_explore.md)
-2. [Data Visualization]() ---> อันนี้เป็นงานของ Final Assignment นะครับพี่แค่แปะหัวข้อตัวอย่างไว้
+1. [Data Exploration](./01_DataExploration.md)
+2. [Data Cleaning and Data Transformation](./02_DataCleaning.md)
+3. [Data Analysis with Descriptive Statistics](./03_DataAnalysis.md)
 
 ## Resource
+
 ## References
 //Link
 ## About Us

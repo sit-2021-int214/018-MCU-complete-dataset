@@ -4,7 +4,12 @@ Datasets from: [MCU Complete Dataset](https://www.kaggle.com/rachit239/mcu-compl
 ### About MCU Complete Dataset
 This dataset is about MCU movies that contains movie till Phase 3. It includes Name, US release Date, Director, Producer, Duration, Genre, IMDB rating, metascore, Cast, Budget, Domestic Gross, Total Gross, Opening Gross, Oscar Nomination, Oscar won, and Phase
 ## Overview
-สาเหตุที่พวกเราเลือก dataset นี้เพราะ dataset นี้มีข้อมูลที่น่าสนใจเพื่อที่จะได้เนำไปศึกษาหาข้อมูลที่พวกเราต้องการจะหาต่อ
+สาเหตุที่พวกเราเลือก dataset นี้เพราะ dataset นี้มีข้อมูลที่น่าสนใจ จึงเหมาะที่จะนำข้อมูลเหล่านี้ไปศึกษาต่อ
+### Questions
+1. หาค่าสูงสุดของคะแนน IMDB ของ MCU movies 
+2. หางบประมาณเฉลี่ยของการลงทุนในกาารทำหนังในแต่ละ Phase
+3. เปรียบเทียบว่า Phase ไหนได้รับรางวัลออสก้ามากกว่ากัน
+4. ให้หาจำนวนของหนังที่มีบทวิจารณ์มากกว่าคะแนนเฉลี่ย
 ### Steps
 
 1. Define a question
@@ -14,11 +19,7 @@ This dataset is about MCU movies that contains movie till Phase 3. It includes N
 5. Data Cleaning and Data Transformation
 6. Data Analysis with Descriptive Statistics
 
-### Questions
-1. หาค่าสูงสุดของคะแนน IMDB ของ MCU movies 
-2. หางบประมาณเฉลี่ยของการลงทุนในกาารทำหนังในแต่ละ Phase
-3. เปรียบเทียบว่า Phase ไหนได้รับรางวัลออสก้ามากกว่ากัน
-4. ให้หาจำนวนของหนังที่มีบทวิจารณ์มากกว่าคะแนนเฉลี่ย
+
 ### Tools
 
 - R Language

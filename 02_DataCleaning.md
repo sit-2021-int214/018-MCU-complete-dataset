@@ -2,7 +2,7 @@
 
 ### Changing value types
 
-#### เปลี่ยน Budget, Domestic Gross, Total Gross, Opening Gross จาก character เป็น ***
+#### เปลี่ยน Budget, Domestic Gross, Total Gross, Opening Gross จาก string เป็น numeric
 1. Budget
 ```{R}
 MCU_Data$Budget <- MCU_Data$Budget %>% str_remove_all("\\$") %>% str_remove_all(",") %>% as.numeric()

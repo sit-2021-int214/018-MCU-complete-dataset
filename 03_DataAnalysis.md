@@ -40,15 +40,15 @@ filter(Total.Gross < mean(Total.Gross)) %>% arrange(desc(Total.Gross))
 ### 3. หางบประมาณเฉลี่ยของการลงทุนทำหนังในแต่ละ Phase
 ```{R}
 MCU_Data %>% select(Phase, Budget) %>% group_by(Phase) %>% 
-summarise(AvgBudget = mean(Budget))
+summarise(AvgBudget = round(mean(Budget), digits = 0))
 ```
 #### Result:
 ```{R}
-  Phase  AvgBudget
-  <int>      <dbl>
-1     1 166666667.
-2     2 181666667.
-3     3 206909091.
+  Phase AvgBudget
+  <int>     <dbl>
+1     1 166666667
+2     2 181666667
+3     3 206909091
 ```
 
 ### 4. หา Phase ของหนังที่ได้รับรางวัลออสการ์มากที่สุด

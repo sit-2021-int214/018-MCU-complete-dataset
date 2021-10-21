@@ -3,7 +3,7 @@
 ### Changing value types
 #### เปลี่ยน US release Date จาก character เป็น date
 ```{R}
-*Test*
+*อาจจะไม่ต้องทำ*
 ```
 #### เปลี่ยน Duration จาก character เป็น ***
 ```{R}

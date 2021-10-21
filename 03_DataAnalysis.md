@@ -6,7 +6,7 @@
 MCU_Data %>% select(Name, IMDB.rating) %>%
 slice_max(IMDB.rating)
 ```
-Result:
+#### Result:
 ```{R}
                     Name IMDB.rating
 1 Avengers: Infinity War         8.4
@@ -17,7 +17,7 @@ Result:
 ```{R}
 *Test*
 ```
-Result:
+#### Result:
 ```{R}
 *Test*
 ```
@@ -26,7 +26,7 @@ Result:
 ```{R}
 *Test*
 ```
-Result:
+#### Result:
 ```{R}
 *Test*
 ```
@@ -37,7 +37,7 @@ MCU_Data %>% select(Phase, Oscar.won) %>% group_by(Phase) %>%
 summarise(TotalOscarWon = sum(Oscar.won)) %>%
 slice_max(TotalOscarWon)
 ```
-Result:
+#### Result:
 ```{R}
   Phase TotalOscarWon
   <int>         <int>
@@ -49,7 +49,7 @@ Result:
 MCU_Data %>% select(Name, Genre) %>%
 filter(str_detect(Genre, 'Sci-Fi') == FALSE)
 ```
-Result:
+#### Result:
 ```{R}
                             Name                       Genre
 1                           Thor Action , Adventure, Fantasy
@@ -68,7 +68,7 @@ Result:
 MCU_Data %>% select(Name, metascore) %>%
 slice_max(metascore, n=3)
 ```
-Result:
+#### Result:
 ```{R}
               Name metascore
 1    Black Panther        88

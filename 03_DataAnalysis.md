@@ -3,11 +3,14 @@
 
 ### 1. หาชื่อของหนังที่ทำคะแนน IMDB ได้สูงสุด และคะแนนของหนังดังกล่าว
 ```{R}
-*Test*
+MCU_Data %>% select(Name, IMDB.rating) %>%
+  slice_max(IMDB.rating)
 ```
 Result:
 ```{R}
-*Test*
+                    Name IMDB.rating
+1 Avengers: Infinity War         8.4
+2       Avengers:Endgame         8.4
 ```
 
 ### 2. หาชื่อของหนังที่ทำกำไรได้มากกว่าค่าเฉลี่ย

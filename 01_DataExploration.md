@@ -12,6 +12,9 @@ Datasets from: [MCU Complete Dataset](https://www.kaggle.com/rachit239/mcu-compl
 ## Step 3: Loading Library and Dataset
 ```{R}
 # Install Libraries
+library(dplyr)
+library(readr)
+library(stringr)
 
 # Download Dataset
 MCU_Data <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/018-MCU-complete-dataset/master/mcu%20dataset.csv")

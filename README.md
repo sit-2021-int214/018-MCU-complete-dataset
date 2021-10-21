@@ -33,9 +33,9 @@ Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies 
 
 ## Resource
 ### Important File in Repo
-- [MCU_Dataset.csv](./MCU_Dataset.csv)
-- [MCU_Dataset_Clean.csv](./MCU_Dataset_Clean.csv)
-- [MCU_Code.R](./MCU_Code.R)
+- [MCU_Dataset.csv](./MCU_Dataset.csv) : Original Dataset
+- [MCU_Dataset_Clean.csv](./MCU_Dataset_Clean.csv) : Clean Dataset
+- [MCU_Code.R](./MCU_Code.R) : R File
 ### References
 - https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Round : Rounding numbers
 - https://stackoverflow.com/questions/64741916/how-to-remove-the-dollar-sign-in-r : Special charactor

@@ -20,6 +20,29 @@ MCU_Data$Total.Gross <- MCU_Data$Total.Gross %>% str_remove_all("\\$") %>% str_r
 MCU_Data$Opening.Gross <- MCU_Data$Opening.Gross %>% str_remove_all("\\$") %>% str_remove_all(",") %>% as.numeric()
 ```
 
+#### Glimpse
+```{R}
+Rows: 23
+Columns: 16
+$ Name             <chr> "Iron Man", "The incredible Hulk", "Iron Man 2", "Thor", "Captain America: The first Avenger",~
+$ US.release.Date  <chr> "May 2, 2008", "June 13, 2008", "May 7, 2010", "May 6, 2011", "July 22, 2011", "May 4, 2012", ~
+$ Director         <chr> "Jon Favreau", "Louis Leterrier", "Jon Favreau", "Kenneth Branagh", "Joe Jhonston", "Joss Whed~
+$ Producer         <chr> "Avi Arad and Kevin Feige", "Avi Arad ,Gale Ann Hurd and Kevin Feige", "Kevin Feige", "Kevin F~
+$ Duration         <chr> "2h 6min", "1h 52min", "2h 4min", "1h 55min", "2h 4min", "2h 23min", "2h 10min", "1h 52min", "~
+$ Genre            <chr> "Action , Adventure, Sci-Fi", "Action , Adventure, Sci-Fi", "Action , Adventure, Sci-Fi", "Act~
+$ IMDB.rating      <dbl> 7.9, 6.6, 7.0, 7.0, 6.9, 8.0, 7.1, 6.8, 7.7, 8.0, 7.3, 7.3, 7.8, 7.5, 7.6, 7.4, 7.9, 7.3, 8.4,~
+$ metascore        <int> 79, 61, 57, 57, 66, 69, 62, 54, 70, 76, 66, 64, 75, 72, 67, 73, 74, 88, 68, 70, 64, 78, 69
+$ Cast             <chr> "Robert Downey Jr. , Gweneth Paltrow , Terrence Howard", "Edward Norton , Liv Tyler , Tim Roth~
+$ Budget           <dbl> 1.40e+08, 1.50e+08, 2.00e+08, 1.50e+08, 1.40e+08, 2.20e+08, 2.00e+08, 1.70e+08, 1.70e+08, 1.70~
+$ Domestic.Gross   <dbl> 318604126, 134806913, 312433331, 181030624, 176654505, 623357910, 408992272, 206362140, 259746~
+$ Total.Gross      <dbl> 585366247, 264770996, 623933331, 449326618, 370569774, 1518812988, 1214811252, 644783140, 7144~
+$ Opening.Gross    <dbl> 98618668, 55414050, 128122480, 65723338, 65058524, 207438708, 174144585, 85737841, 95023721, 9~
+$ Oscar.Nomination <int> 2, 0, 1, 0, 0, 1, 1, 0, 1, 2, 0, 0, 0, 1, 1, 0, 0, 7, 1, 0, 0, 1, 0
+$ Oscar.won        <int> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0
+$ Phase            <int> 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+ ```
+จะเห็นว่าตัวเลขค่าเงินทั้ง 4 ตัว ถูกเปลี่ยนจาก character เป็น double
+
 #### Summary
 ```{R}
      Name           US.release.Date      Director           Producer           Duration            Genre          
@@ -43,3 +66,4 @@ MCU_Data$Opening.Gross <- MCU_Data$Opening.Gross %>% str_remove_all("\\$") %>% s
  3rd Qu.:176641864   3rd Qu.:1.0000   3rd Qu.:0.0000   3rd Qu.:3.000  
  Max.   :357115007   Max.   :7.0000   Max.   :3.0000   Max.   :3.000  
  ```
+จะเห็นว่าตัวเลขค่าเงินทั้ง 4 ตัว สามารถนำไปใช้คำนวณต่อได้

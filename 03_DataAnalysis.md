@@ -46,11 +46,21 @@ Result:
 
 ### 5. หารายชื่อของหนังที่ Genre ไม่ใช่ Sci-Fi
 ```{R}
-*Test*
+MCU_Data %>% select(Name, Genre) %>%
+filter(str_detect(Genre, 'Sci-Fi') == FALSE)
 ```
 Result:
 ```{R}
-*Test*
+                            Name                       Genre
+1                           Thor Action , Adventure, Fantasy
+2           Thor: The dark world Action , Adventure, Fantasy
+3        Guardians Of the Galaxy  Action, Adventure , Comedy
+4                        Ant-Man  Action, Adventure , Comedy
+5                Doctor Strange  Action , Adventure, Fantasy
+6 Guardians of the Galaxy Vol. 2  Action, Adventure , Comedy
+7                  Thor:Ragnarok  Action, Adventure , Comedy
+8           Ant-Man and the Wasp  Action, Adventure , Comedy
+9               Avengers:Endgame  Action , Adventure , Drama
 ```
 
 ### 6. หา 3 อันดับ ของหนังที่มีคะแนน Metascore สูงสุด พร้อมคะแนนของหนังดังกล่าว

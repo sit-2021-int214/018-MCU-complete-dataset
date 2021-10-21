@@ -2,7 +2,7 @@
 Datasets from: [MCU Complete Dataset](https://www.kaggle.com/rachit239/mcu-complete-dataset)
 
 ### About MCU Complete Dataset
-This dataset is about MCU movies that contains movie till Phase 3. It includes Name, US release Date, Director, Producer, Duration, Genre, IMDB rating, metascore, Cast, Budget, Domestic Gross, Total Gross, Opening Gross, Oscar Nomination, Oscar won, and Phase
+Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies โดยมีหนังที่ออกฉายแล้วตั้งแต่ต้นจนถึง Phase 3. ข้อมูลใน Dataset นี้ประกอบไปด้วย Name, US release Date, Director, Producer, Duration, Genre, IMDB rating, metascore, Cast, Budget, Domestic Gross, Total Gross, Opening Gross, Oscar Nomination, Oscar won, และ Phase
 ## Overview
 สาเหตุที่พวกเราเลือก dataset นี้เพราะ dataset นี้มีข้อมูลที่น่าสนใจ จึงเหมาะที่จะนำข้อมูลเหล่านี้ไปศึกษาต่อ
 

@@ -33,9 +33,9 @@ Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies 
 
 ## Resource
 ### Important File in Repo
-- 
-- 
-- 
+- [MCU_Dataset.csv](./MCU_Dataset.csv)
+- [MCU_Dataset_Clean.csv](./MCU_Dataset_Clean.csv)
+- [MCU_Code.R](./MCU_Code.R)
 ### References
 - https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Round : Rounding numbers
 ## About Us

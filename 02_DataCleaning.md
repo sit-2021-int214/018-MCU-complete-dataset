@@ -5,7 +5,7 @@
 
 #### เปลี่ยน Duration จาก character เป็น ***
 
-#### เปลี่ยน Budget, Domestic.Gross, Total.Gross, Opening.Gross จาก character เป็น ***
+#### เปลี่ยน Budget, Domestic Gross, Total Gross, Opening Gross จาก character เป็น ***
 1. Budget
 ```{R}
 *Test*
@@ -19,6 +19,6 @@
 *Test*
 ```
 4. Opening Gross
-5. ```{R}
+```{R}
 *Test*
 ```

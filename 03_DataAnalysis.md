@@ -4,7 +4,7 @@
 ### 1. หาชื่อของหนังที่ทำคะแนน IMDB ได้สูงสุด และคะแนนของหนังดังกล่าว
 ```{R}
 MCU_Data %>% select(Name, IMDB.rating) %>%
-slice_max(IMDB.rating)
+  slice_max(IMDB.rating)
 ```
 #### Result:
 ```{R}
@@ -16,7 +16,7 @@ slice_max(IMDB.rating)
 ### 2. หาชื่อของหนังที่ทำกำไรโดยรวมได้มากกว่าค่าเฉลี่ย และกำไรของหนัง จากมากไปน้อย
 ```{R}
 MCU_Data %>% select(Name, Total.Gross) %>%
-filter(Total.Gross < mean(Total.Gross)) %>% arrange(desc(Total.Gross))
+  filter(Total.Gross < mean(Total.Gross)) %>% arrange(desc(Total.Gross))
 ```
 #### Result:
 ```{R}
@@ -40,7 +40,7 @@ filter(Total.Gross < mean(Total.Gross)) %>% arrange(desc(Total.Gross))
 ### 3. หางบประมาณเฉลี่ยของการลงทุนทำหนังในแต่ละ Phase
 ```{R}
 MCU_Data %>% select(Phase, Budget) %>% group_by(Phase) %>% 
-summarise(AvgBudget = round(mean(Budget), digits = 0))
+  summarise(AvgBudget = round(mean(Budget), digits = 0))
 ```
 #### Result:
 ```{R}
@@ -54,8 +54,8 @@ summarise(AvgBudget = round(mean(Budget), digits = 0))
 ### 4. หา Phase ของหนังที่ได้รับรางวัลออสการ์มากที่สุด
 ```{R}
 MCU_Data %>% select(Phase, Oscar.won) %>% group_by(Phase) %>% 
-summarise(TotalOscarWon = sum(Oscar.won)) %>%
-slice_max(TotalOscarWon)
+  summarise(TotalOscarWon = sum(Oscar.won)) %>%
+  slice_max(TotalOscarWon)
 ```
 #### Result:
 ```{R}
@@ -67,7 +67,7 @@ slice_max(TotalOscarWon)
 ### 5. หารายชื่อของหนังที่ Genre ไม่ใช่ Sci-Fi
 ```{R}
 MCU_Data %>% select(Name, Genre) %>%
-filter(str_detect(Genre, 'Sci-Fi') == FALSE)
+  filter(str_detect(Genre, 'Sci-Fi') == FALSE)
 ```
 #### Result:
 ```{R}
@@ -86,7 +86,7 @@ filter(str_detect(Genre, 'Sci-Fi') == FALSE)
 ### 6. หา 3 อันดับ ของหนังที่มีคะแนน Metascore สูงสุด พร้อมคะแนนของหนังดังกล่าว
 ```{R}
 MCU_Data %>% select(Name, metascore) %>%
-slice_max(metascore, n=3)
+  slice_max(metascore, n=3)
 ```
 #### Result:
 ```{R}

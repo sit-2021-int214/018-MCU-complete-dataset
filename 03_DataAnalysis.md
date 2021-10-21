@@ -13,26 +13,28 @@ slice_max(IMDB.rating)
 2       Avengers:Endgame         8.4
 ```
 
-### 2. หาชื่อของหนังที่ทำกำไรได้มากกว่าค่าเฉลี่ย และกำไรของหนัง จากมากไปน้อย
+### 2. หาชื่อของหนังที่ทำกำไรโดยรวมได้มากกว่าค่าเฉลี่ย และกำไรของหนัง จากมากไปน้อย
 ```{R}
-MCU_Data %>% select(Name, Domestic.Gross) %>%
-filter(Domestic.Gross < mean(Domestic.Gross)) %>% arrange(desc(Domestic.Gross))
+MCU_Data %>% select(Name, Total.Gross) %>%
+filter(Total.Gross < mean(Total.Gross)) %>% arrange(desc(Total.Gross))
 ```
 #### Result:
 ```{R}
-                                   Name Domestic.Gross
-1                              Iron Man      318604126
-2                            Iron Man 2      312433331
-3  Captain America : The Winter Soldier      259746958
-4                       Doctor Strange       232641920
-5                  Ant-Man and the Wasp      216648740
-6                  Thor: The dark world      206362140
-7                                  Thor      181030624
-8                               Ant-Man      180202163
-9    Captain America: The first Avenger      176654505
-10                  The incredible Hulk      134806913
-11                        Black Panther       70005956
-12                        Thor:Ragnarok       31505828
+                                   Name Total.Gross
+1                 Spider-Man:Homecoming   880166924
+2        Guardians of the Galaxy Vol. 2   863756051
+3                         Thor:Ragnarok   853977126
+4               Guardians Of the Galaxy   772776600
+5  Captain America : The Winter Soldier   714421503
+6                       Doctor Strange    677718395
+7                  Thor: The dark world   644783140
+8                            Iron Man 2   623933331
+9                  Ant-Man and the Wasp   622674139
+10                             Iron Man   585366247
+11                              Ant-Man   519311965
+12                                 Thor   449326618
+13   Captain America: The first Avenger   370569774
+14                  The incredible Hulk   264770996
 ```
 
 ### 3. หางบประมาณเฉลี่ยของการลงทุนทำหนังในแต่ละ Phase

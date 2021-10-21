@@ -26,7 +26,8 @@ MCU_Data$Opening.Gross <- MCU_Data$Opening.Gross %>% str_remove_all("\\$") %>% s
  Length:23          Length:23          Length:23          Length:23          Length:23          Length:23         
  Class :character   Class :character   Class :character   Class :character   Class :character   Class :character  
  Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character   Mode  :character  
-                                                                                       
+                                   
+                                   
   IMDB.rating      metascore         Cast               Budget          Domestic.Gross       Total.Gross       
  Min.   :6.600   Min.   :54.00   Length:23          Min.   :130000000   Min.   : 31505828   Min.   :2.648e+08  
  1st Qu.:7.000   1st Qu.:64.00   Class :character   1st Qu.:155000000   1st Qu.:193696382   1st Qu.:6.233e+08  

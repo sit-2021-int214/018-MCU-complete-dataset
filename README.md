@@ -40,7 +40,7 @@ Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies 
 - https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Round : Rounding numbers
 - https://stackoverflow.com/questions/64741916/how-to-remove-the-dollar-sign-in-r : Special Character Encoding ($)
 ## About Us
-งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
+งานนี้เป็นส่วนของวิชา INT214 Statistics for Information Technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 ### Team: 018-Thailand-Largest-Company
 | No. | Name              | Student ID   |
 |:---:|-------------------|--------------|

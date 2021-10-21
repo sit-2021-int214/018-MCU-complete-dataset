@@ -44,19 +44,19 @@ $ Oscar.won        <int> 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0
 $ Phase            <int> 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
 ```
 จะเห็นว่าชุดข้อมูลนี้ประกอบไปด้วยข้อมูล 16 ชนิด
-- Name (ชื่อหนัง)
-- US release Date (วันที่เปิดฉายใน US)
-- Director (ชื่อผู้กำกับ)
-- Producer (ชื่อผู้ผลิต)
-- Duration (ระยะเวลา)
-- Genre (ประเภทของหนัง)
-- IMDB rating
-- metascore
-- Cast (ชื่อนักแสดง)
-- Budget (ทุนสร้าง)
-- Domestic Gross (รายได้ในประเทศ US)
-- Total Gross (รายได้รวม)
-- Opening Gross (รายได้สัปดาห์เปิดฉาย)
-- Oscar Nomination (จำนวนครั้งที่มีการเสนอชื่อชิงรางวัล Oscar)
-- Oscar won (จำนวนครั้งที่ได้รับรางวัล Oscar)
-- Phase
+- `Name` ชื่อหนัง(character)
+- `US release Date` วันที่เปิดฉายใน US(character)
+- `Director` ชื่อผู้กำกับ(character)
+- `Producer` ชื่อผู้ผลิต(character)
+- `Duration` ระยะเวลา(character)
+- `Genre` ประเภทของหนัง(character)
+- `IMDB rating` (double)
+- `metascore` (integer)
+- `Cast` ชื่อนักแสดง(character)
+- `Budget` ทุนสร้าง(character)
+- `Domestic Gross` รายได้ในประเทศ US(character)
+- `Total Gross` รายได้รวม(character)
+- `Opening Gross` รายได้สัปดาห์เปิดฉาย(character)
+- `Oscar Nomination` จำนวนครั้งที่มีการเสนอชื่อชิงรางวัล Oscar(integer)
+- `Oscar won` จำนวนครั้งที่ได้รับรางวัล Oscar(integer)
+- `Phase` (integer)

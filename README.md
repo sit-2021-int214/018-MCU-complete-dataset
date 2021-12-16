@@ -1,5 +1,6 @@
 # Group 018 - MCU Complete Dataset
 Datasets from: [MCU Complete Dataset](https://www.kaggle.com/rachit239/mcu-complete-dataset)
+![topics](Marvel_Studio.jpeg)
 
 ### About MCU Complete Dataset
 Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies โดยมีหนังที่ออกฉายแล้วตั้งแต่ต้นจนถึง Phase 3. ข้อมูลใน Dataset นี้ประกอบไปด้วย Name, US release Date, Director, Producer, Duration, Genre, IMDB rating, metascore, Cast, Budget, Domestic Gross, Total Gross, Opening Gross, Oscar Nomination, Oscar won, และ Phase

@@ -1,5 +1,5 @@
 # Group 018 - MCU Complete Dataset
-Datasets from: [MCU Complete Dataset(Phase 1 - Phase 3](https://www.kaggle.com/rachit239/mcu-complete-dataset)
+Datasets from: [MCU Complete Dataset(Phase 1 - Phase 3)](https://www.kaggle.com/rachit239/mcu-complete-dataset)
 ![topics](Marvel_Studio.jpeg)
 
 ### About MCU Complete Dataset

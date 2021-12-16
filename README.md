@@ -30,6 +30,9 @@ Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies 
 1. [Data Exploration](./01_DataExploration.md)
 2. [Data Cleaning and Data Transformation](./02_DataCleaning.md)
 3. [Data Analysis with Descriptive Statistics](./03_DataAnalysis.md)
+4. [Data Visualization]
+5. [Hypothesis Test(pop1)](./HypothesisTesting.md)
+6. [Presentation]
 
 ## Resource
 ### Important File in Repo

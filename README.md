@@ -33,7 +33,7 @@ Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies 
 3. [Data Analysis with Descriptive Statistics](./03_DataAnalysis.md)
 4. [Data Visualization]
 5. [Hypothesis Test(pop1)](./HypothesisTesting.md)
-6. [Presentation](https://docs.google.com/presentation/d/1ktY2Q9mRN0An-1ZbglUeSSDIRjCpDQGG_bbX89mxJcY/edit#slide=id.p)
+6. [Presentation](https://www.canva.com/design/DAEytYVvfug/Au2d40LUTZvHMJOuH_E8Pg/edit)
 
 ## Resource
 ### Important File in Repo

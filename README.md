@@ -1,5 +1,6 @@
 # Group 018 - MCU Complete Dataset
 Datasets from: [MCU Complete Dataset(Phase 1 - Phase 3)](https://www.kaggle.com/rachit239/mcu-complete-dataset)
+
 ![topics](Marvel_Studio.jpeg)
 
 ### About MCU Complete Dataset
@@ -32,7 +33,7 @@ Dataset นี้มีข้อมูลเกี่ยวกับ MCU movies 
 2. [Data Cleaning and Data Transformation](./02_DataCleaning.md)
 3. [Data Analysis with Descriptive Statistics](./03_DataAnalysis.md)
 4. [Data Visualization](https://datastudio.google.com/reporting/0e2e9eb4-5e51-474c-b335-535555e33ff8/page/p_vxktqrddqc)
-5. [Hypothesis Test(pop1)](./HypothesisTesting.md)
+5. [Hypothesis Test (Pop1)](./HypothesisTesting.md)
 6. [Presentation](https://www.canva.com/design/DAEytYVvfug/Au2d40LUTZvHMJOuH_E8Pg/edit)
 
 ## Resource
